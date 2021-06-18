@@ -1,0 +1,11 @@
+.table {
+    border-spacing: 4px;
+}
+.table tr td {
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border: 1px solid #c5c5c5;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
