@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DOM HW</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2>Таблица умножения</h2>
+    <table class="table"></table>
+    <h2>Калькулятор</h2>
+
+    <p><b>Первое число:</b><br>
+        <input type="text" id="first-num">
+    </p>
+    <p><b>Второе число:</b><br>
+        <input type="text" id="second-num">
+    </p>
+    <p><b>Выберите операцию:</b><br>
+        <select id="operator">
+            <option value="+" selected>Прибавить</option>
+            <option value="-">Вычесть</option>
+            <option value="/">Разделить</option>
+            <option value="*">Умножить</option>
+        </select>
+    </p>
+    <p><button id="calc">Рассчитать</button>
+    </p>
+    <p><b>Результат:</b><br>
+        <input type="text" id="result" readonly>
+    </p>
+    <script src="js/main.js"></script>
+</body>
+</html>
